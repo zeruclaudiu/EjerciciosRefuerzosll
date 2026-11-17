@@ -4,7 +4,7 @@ public class Ejercicio10 {
         int capacidad = 300;
         int diferencia = 10;
         int litrosTotal = 0;
-        for (int i = 1; i <= compartimento; i++) {
+        for (int i = 0; i < compartimento; i++) {
             litrosTotal += capacidad;
             capacidad -= diferencia;
 
