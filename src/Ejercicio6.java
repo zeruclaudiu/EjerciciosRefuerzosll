@@ -14,7 +14,7 @@ public class Ejercicio6 {
 
         String numero =Integer.toString(num);
         for (int i = numero.length() - 1; i >= 0; i--) {
-            if ((numero.charAt(i) % 2 != 0) ) {
+            if (numero.charAt(i) % 2 != 0)  {
                 return false;
             }
         }
